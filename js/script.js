@@ -1,4 +1,6 @@
-window.onload = function(){
+// window.onload
+// window.onload = function(){
+document.addEventListener("DOMContentLoaded", function() {
 	var getNavi = document.getElementById('navigation');
 
 	var mobile = document.createElement("span");
@@ -37,4 +39,4 @@ window.onload = function(){
 			getElm[i].lastChild.style.backgroundColor='rgba(0, 0, 0, 0.91)';
 		}
 	};
-};
+});
